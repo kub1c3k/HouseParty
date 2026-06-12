@@ -1,0 +1,22 @@
+# Python cache (compiled bytecode)
+**/__pycache__/
+*.pyc
+
+# Django local database (never commit this, it's your local data)
+db.sqlite3
+
+# Virtual environments (if yours is named venv, .venv, or env)
+.venv/
+venv/
+env/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node dependencies
+**/node_modules/
